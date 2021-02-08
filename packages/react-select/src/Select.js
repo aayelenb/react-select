@@ -273,7 +273,7 @@ export const defaultProps = {
   pageSize: 5,
   placeholder: 'Select...',
   screenReaderStatus: ({ count }: { count: number }) =>
-    `${count} result${count !== 1 ? 's' : ''} available`,
+    `${count} result${count !== 1 ? 's' : ''} disponible`,
   styles: {},
   tabIndex: '0',
   tabSelectsValue: true,
